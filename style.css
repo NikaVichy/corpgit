@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 body{
     margin: 0;
 }
@@ -8,7 +10,7 @@ body{
 
 .header-logo{
     padding-top: 8px;
-    margin-left: 25px;
+    margin-left: 100px;
 }
 
 .nav{
@@ -16,11 +18,54 @@ body{
     align-items: center;
 }
 
+.navbut{
+    display: flex;
+    align-items: center;
+}
+
 .nav-item{
-    margin-left: 50px;
+    margin-right: 200px;
 }
 
 .img{
+    width: 60%;
+    height: auto;
+}
+
+.img1{
+    width: 60%;
+    height: auto;
+}
+
+.mediacenter{
+    font-size: 100px;
+    font-family: Montserrat;
+    text-align: center; 
+    color: #024392;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.bord{
+    display: flex;
+    align-items: center;
     width: 50%;
     height: auto;
+}
+.rect{
+    width: 50%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.rect1{
+    width: 50%;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.TakePart{
+    
 }
