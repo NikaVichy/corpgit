@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    margin: 0;
+}
+
+.header{
+    box-shadow: 0 6px 15px -4px rgba(0, 0, 0, .2);
+}
+
+.header-logo{
+    padding-top: 8px;
+    margin-left: 100px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbut{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 200px;
+}
+
+.img{
+    width: 60%;
+    height: auto;
+}
+
+.img1{
+    width: 60%;
+    height: auto;
+}
+
+.ent-text{
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: italic;
+    color: #024392; 
+    margin: 0;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.input, select, textarea{
+    width: 375px;
+    height: 40px;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+    color: #02439280;
+    border-radius: 20px;
+    border-color: #024392;
+    outline: #024392;
+}   
+
+.entbut{
+    margin-top: 35px;
+    width: 120px;
+    height: 40px;
+    background-image: url(assets/enter2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+}
+
+.social{
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+}
+
+.social-item{
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.social-img{
+    width: 11%;
+    height: auto;
+}
+
+.help-img{
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    width: 20%;
+    height: auto;
+}
