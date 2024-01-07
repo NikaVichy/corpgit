@@ -28,7 +28,7 @@ body{
 }
 
 .img{
-    width: 300px;
+    width: 60%;
     height: auto;
 }
 
@@ -37,7 +37,7 @@ body{
     height: auto;
 }
 
-.ent-text{
+.reg-text{
     font-family: Montserrat;
     font-size: 80px;
     font-style: italic;
@@ -59,23 +59,23 @@ body{
     margin-top: 30px;
     font-family: Montserrat;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     color: #02439280;
     border-radius: 20px;
     border-color: #024392;
     outline: #024392;
     padding-left: 10px;
-}   
+}  
 
-.entbut{
-    margin-top: 35px;
-    width: 120px;
-    height: 40px;
-    background-image: url(assets/enter2.png);
+.regbut{
+    margin-top: 30px;
+    background-image: url(assets/Continue.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     border: 0;
+    width: 200px;
+    height: 40px;
 }
 
 .social{
